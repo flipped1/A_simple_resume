@@ -1,2 +1,1 @@
-# A_simple_resume
-This is a exercise
+# 记录自学前端的过程
