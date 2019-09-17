@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	font-family: sans-serif;
+	line-height: 2.2;
+}
+
+#tableContainer {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.before{
+	font-size: 17px;
+	font-weight: 540;
+}
+
+span a{
+	color: blue;
+}
