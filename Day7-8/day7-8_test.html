@@ -1,0 +1,62 @@
+<!-- 
+设计稿分为头部，中间的Banner，主导航，内容区域，底部
+头部区域为100%宽的一个深色背景，头部中间有一块960px的定宽居中区域，里面包括了左边的Logo和右上角导航
+Banner为100%宽的区块，中间右下方有banner轮显的当前图片数字的示例，其中正在显示的图片对应的数字有特殊样式（注意不需要实现轮显banner的业务逻辑，只是按照设计稿做静态样式）
+主导航区域，有一个100%宽的灰色线条，线条之上，在中间960px区域是导航菜单，当前正在浏览页对应的菜单有特殊样式
+主要内容区域，宽度为960px，里面每个内容都有至少80px的padding，每一个内容的宽度均为自适应，可以使用flex布局
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>设计稿</title>
+	<link rel="stylesheet" type="text/css" href="day7-8_test.css">
+</head>
+<body>
+	<header>
+	<div id="header">
+		<div id="head_left">Logo</div>
+			<div id="head_right">
+				<a href="#">Github</a>
+				<a href="#">Register</a>
+				<a href="#">Login</a>
+			</div>
+	</div>
+	</header>
+	<div id="banner">
+		<div id="nav">	
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</div>
+	<div id="led">
+		<div id="item">
+			<div>HOME</div>
+			<div>PROFILE</div>
+			<div>ABOUT</div>
+		</div>
+	</div>
+
+	<div id="main">
+		<div>Content1</div>
+		<div>Content2</div>
+		<div>Content3</div>
+		<div>Content4</div>
+		<div>Content5</div>
+		<div>Content6</div>
+		<div>Content7</div>
+		<div>Content8</div>
+		<div>Content9</div>
+		<div>Content10</div>
+	</div>
+
+	<div id="footer">
+		&copy ife.baidu.com
+	</div>
+
+</body>
+</html>
